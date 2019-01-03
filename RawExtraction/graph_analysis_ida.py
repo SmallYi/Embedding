@@ -88,8 +88,8 @@ def getcodesquence(func):
 	DATI={‘lea’:1,’lds’:2,’les’:3,’lfs’:4,’lgs’:5,’les’:6}
 	FTI={‘lahf’:1,’sahf’:2,’push’:3,’popf’:4,’pushd’:5,’popd’:6}　　
 	ADO={‘add’:1,’adc’:2,’inc’:3,’aaa’:4,’daa’:5,’sub’:6,’sbb’:7,’dec’:8,’nec’:9,’cmp’:10,’aas’:11,’das’:12,’mul’:13,’imul’:14,’aam’:15,’div’:16,’idiv’:17,’aad’:18,’cbw’:19,’cwd’:20,’cwde’:21,’cdq’:22,’c’:23,’r’:24,’rsc’:25,’mla‘：13，’smull’:14,’umull’:15,’umlal’:16,’addu’:1,’subu’:6,’addi’:1,’addiu’:2}　
-	LDO={‘and’:1,’or’:2,’xor’:3,’not’:4,’test’:5,’shl’:6,’sal’:7,’shr’:8,’sar’:9,’rol’:10,’ror’:11,’rcl’:12,’rcr’:13,’orr’:2,’eor’:3,’bic’:16,’andi’:1,’ori’:2,’xori’:3}　
-　　　　　	SI={‘movs’:1,’cmps’:2,’scas’:3,’lods’:4,’stos’:5,’rep’:6,’repe’:7,’repen’:8,’repc’:9,’repnc’:10}
+	LDO={‘and’:1,’or’:2,’xor’:3,’not’:4,’test’:5,’shl’:6,’sal’:7,’shr’:8,’sar’:9,’rol’:10,’ror’:11,’rcl’:12,’rcr’:13,’orr’:2,’eor’:3,’bic’:16,’andi’:1,’ori’:2,’xori’:3}
+	SI={‘movs’:1,’cmps’:2,’scas’:3,’lods’:4,’stos’:5,’rep’:6,’repe’:7,’repen’:8,’repc’:9,’repnc’:10}
 	UBI={‘jump’:1,’call’:2,’ret’:3,’j’:1,’cal’:2}　
 	CBI={‘ja’:1,’jnbe’:1,’jae’:2,’jnb’:10,’jb’:3,’jbe’:4,’jg’:5,’jge’:6,’jl’:7,’jle’:8,’je’:9,’jne’:11,’jc’:12,’jnc’:13,’jno’:14,’jnp’:15,’jns’:16,’jo’:17,’jp’:18,’js’:19,’slt’:20,’sltu’:21,’sll’:13,’srl’:14,’sra’:15,’sllv’:16,’srlv’:17,’jr’:18,’beq’:1,’bne’:2,’slti’:3.’sltiu’:4}    
 	LCI={‘loop’:1,’loope’:2,’loopne’:3,’jcxz’:4,’jecxz’:5}
