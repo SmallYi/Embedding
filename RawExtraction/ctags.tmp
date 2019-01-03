@@ -1,0 +1,224 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_MOD_BY	Bostjan Mihoric	/ccompletion@gmail.com/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	/unofficial modification/
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	/unofficial modification/
+CBI	graph_analysis_ida.py	94;"	variable
+II	graph_analysis_ida.py	96;"	variable
+LCI	graph_analysis_ida.py	95;"	variable
+PCI	graph_analysis_ida.py	97;"	variable
+PI	graph_analysis_ida.py	98;"	variable
+PIPE	raw_graphs.py	6;"	namespace
+Popen	raw_graphs.py	6;"	namespace
+UBI	graph_analysis_ida.py	93;"	variable
+__init__	raw_graphs.py	13;"	member	class:raw_graph
+__init__	raw_graphs.py	204;"	member	class:raw_graphs
+__init__	raw_graphs.py	216;"	member	class:graphlets
+__init__	raw_graphs.py	234;"	member	class:template_graph
+__init__	raw_graphs.py	251;"	member	class:template_graphs
+__len__	raw_graphs.py	211;"	member	class:raw_graphs	file:
+__len__	raw_graphs.py	21;"	member	class:raw_graph	file:
+__len__	raw_graphs.py	230;"	member	class:graphlets	file:
+a	listtimat.py	15;"	variable
+a	nodemat.py	26;"	variable
+aaa	nodemat.py	37;"	variable
+analysis_flags	preprocessing_ida.py	17;"	variable
+append	raw_graphs.py	208;"	member	class:raw_graphs
+append	raw_graphs.py	224;"	member	class:graphlets
+appendSet	raw_graphs.py	227;"	member	class:graphlets
+argparse	preprocessing_ida.py	5;"	namespace
+args	preprocessing_ida.py	15;"	variable
+arm_L1	graph_analysis_ida.py	100;"	variable
+attribute	raw_graphs.py	83;"	member	class:raw_graph
+attributing	cfg_constructor.py	160;"	function
+attributing	raw_graphs.py	24;"	member	class:raw_graph
+attributingRe	cfg_constructor.py	139;"	function
+betweeness	graph_property.py	3;"	function
+binary_name	preprocessing_ida.py	23;"	variable
+blocks	graph_analysis_ida.py	101;"	variable
+calArithmeticIns	graph_analysis_ida.py	217;"	function
+calCalls	graph_analysis_ida.py	234;"	function
+calInsts	graph_analysis_ida.py	247;"	function
+calLogicInstructions	graph_analysis_ida.py	257;"	function
+calNconstants	graph_analysis_ida.py	287;"	function
+calSconstants	graph_analysis_ida.py	274;"	function
+calTransferIns	graph_analysis_ida.py	315;"	function
+cfg	func.py	12;"	namespace
+cfg_construct	cfg_constructor.py	207;"	function
+cfgs	preprocessing_ida.py	22;"	variable
+checkCB	cfg_constructor.py	265;"	function
+checkCondition	cfg_constructor.py	276;"	function
+closeness_centrality	graph_property.py	12;"	function
+copy	cfg_constructor.py	1;"	namespace
+copy	cfg_constructor.py	7;"	namespace
+createG	raw_graphs.py	188;"	member	class:raw_graph
+createG	raw_graphs.py	273;"	member	class:template_graphs
+createGraph	raw_graphs.py	177;"	member	class:raw_graph
+createGraphDirectly	raw_graphs.py	165;"	member	class:raw_graph
+create_Graphbycondition_Directly	raw_graphs.py	155;"	member	class:raw_graph
+data	draw.py	11;"	variable
+datetime	draw.py	5;"	namespace
+doc_adj	draw.py	27;"	variable
+doc_edge	draw.py	26;"	variable
+doc_node	draw.py	25;"	variable
+domerge	cfg_constructor.py	88;"	function
+edge	listtimat.py	23;"	variable
+edge	nodemat.py	33;"	variable
+eigenvector	graph_property.py	8;"	function
+end	graph_analysis_ida.py	104;"	variable
+enumerating	raw_graphs.py	87;"	member	class:raw_graph
+enumeratingAll	raw_graphs.py	256;"	member	class:template_graphs
+enumerating_efficient	raw_graphs.py	114;"	member	class:raw_graph
+f	listtimat.py	11;"	variable
+f	nodemat.py	11;"	variable
+file_name	draw.py	9;"	variable
+files	listtimat.py	7;"	variable
+files	nodemat.py	7;"	variable
+filtering	cfg_constructor.py	95;"	function
+fline	listtimat.py	13;"	variable
+fline	nodemat.py	13;"	variable
+folder	draw.py	13;"	variable
+fullpath	preprocessing_ida.py	24;"	variable
+g	draw.py	28;"	variable
+genArray	raw_graphs.py	289;"	member	class:template_graphs
+genBinValue	raw_graphs.py	268;"	member	class:template_graphs
+genMotifs	raw_graphs.py	98;"	member	class:raw_graph
+getBBconsts	graph_analysis_ida.py	48;"	function
+getBasicBlocks	graph_analysis_ida.py	185;"	function
+getBinaryValue	cfg_constructor.py	185;"	function
+getCfg	cfg_constructor.py	15;"	function
+getConst	graph_analysis_ida.py	17;"	function
+getFuncCalls	graph_analysis_ida.py	76;"	function
+getIncommingCalls	graph_analysis_ida.py	189;"	function
+getIntrs	graph_analysis_ida.py	170;"	function
+getLocalVariables	graph_analysis_ida.py	181;"	function
+getLogicInsts	graph_analysis_ida.py	154;"	function
+getOffsprings	raw_graphs.py	44;"	member	class:raw_graph
+getStmtNum	cfg_constructor.py	175;"	function
+getTransferInsts	graph_analysis_ida.py	162;"	function
+get_discoverRe_feature	discovRe.py	41;"	function
+get_func_bases	discovRe.py	88;"	function
+get_func_bases	func.py	71;"	function
+get_func_cfg_sequences	discovRe.py	143;"	function
+get_func_cfg_sequences	func.py	161;"	function
+get_func_cfgs	discovRe.py	117;"	function
+get_func_cfgs	func.py	145;"	function
+get_func_cfgs_c	func.py	110;"	function
+get_func_cfgs_ctest	func.py	127;"	function
+get_func_names	discovRe.py	81;"	function
+get_func_names	func.py	64;"	function
+get_func_namesWithoutE	func.py	50;"	function
+get_func_range	discovRe.py	95;"	function
+get_func_range	func.py	81;"	function
+get_func_sequences	discovRe.py	103;"	function
+get_func_sequences	func.py	96;"	function
+get_funcs	discovRe.py	16;"	function
+get_funcs	func.py	31;"	function
+get_funcs_for_discoverRe	discovRe.py	31;"	function
+get_section	discovRe.py	136;"	function
+get_sequences	discovRe.py	155;"	function
+get_sequences	func.py	173;"	function
+get_sequenceslen	discovRe.py	164;"	function
+get_stackVariables	graph_analysis_ida.py	195;"	function
+get_stack_arg	discovRe.py	175;"	function
+get_stack_arg	func.py	182;"	function
+get_unified_funcname	func.py	89;"	function
+getcodesquence	graph_analysis_ida.py	84;"	function
+getfunc_consts	graph_analysis_ida.py	6;"	function
+graphlets	raw_graphs.py	215;"	class
+graphs	draw.py	12;"	variable
+gt_funcNames	func.py	20;"	function
+i	listtimat.py	19;"	variable
+i	listtimat.py	42;"	variable
+i	nodemat.py	32;"	variable
+i	nodemat.py	44;"	variable
+inst_addr	graph_analysis_ida.py	106;"	variable
+inst_addr	graph_analysis_ida.py	150;"	variable
+invoke_num	graph_analysis_ida.py	105;"	variable
+io	listtimat.py	3;"	namespace
+io	nodemat.py	3;"	namespace
+itertools	raw_graphs.py	1;"	namespace
+j	listtimat.py	17;"	variable
+j	nodemat.py	28;"	variable
+matchseq	cfg_constructor.py	116;"	function
+matplotlib	draw.py	4;"	namespace
+merging	cfg_constructor.py	72;"	function
+mmap	raw_graphs.py	9;"	namespace
+network	listtimat.py	16;"	variable
+network	nodemat.py	27;"	variable
+numpy	listtimat.py	2;"	namespace
+numpy	nodemat.py	2;"	namespace
+nx	cfg_constructor.py	2;"	namespace
+nx	cfg_constructor.py	8;"	namespace
+nx	discovRe.py	8;"	namespace
+nx	draw.py	3;"	namespace
+nx	func.py	11;"	namespace
+nx	graph_property.py	1;"	namespace
+nx	raw_graphs.py	4;"	namespace
+obtainDataRefs	discovRe.py	225;"	function
+obtainDataRefs	func.py	268;"	function
+obtainOffsprings	raw_graphs.py	36;"	member	class:raw_graph
+obtain_allpaths	cfg_constructor.py	238;"	function
+obtain_block_sequence	cfg_constructor.py	250;"	function
+opcode	graph_analysis_ida.py	108;"	variable
+opcodenum	graph_analysis_ida.py	110;"	variable
+opcodenum	graph_analysis_ida.py	113;"	variable
+opcodenum	graph_analysis_ida.py	116;"	variable
+opcodenum	graph_analysis_ida.py	119;"	variable
+opcodenum	graph_analysis_ida.py	122;"	variable
+opcodenum	graph_analysis_ida.py	125;"	variable
+opcodenum	graph_analysis_ida.py	128;"	variable
+opcodenum	graph_analysis_ida.py	131;"	variable
+opcodenum	graph_analysis_ida.py	134;"	variable
+opcodenum	graph_analysis_ida.py	137;"	variable
+opcodenum	graph_analysis_ida.py	140;"	variable
+opcodenum	graph_analysis_ida.py	143;"	variable
+opcodenum	graph_analysis_ida.py	146;"	variable
+os	listtimat.py	4;"	namespace
+os	nodemat.py	4;"	namespace
+os	preprocessing_ida.py	4;"	namespace
+os	raw_graphs.py	8;"	namespace
+parseOutput	raw_graphs.py	133;"	member	class:raw_graph
+parseOutputByconditions	raw_graphs.py	144;"	member	class:raw_graph
+parse_command	preprocessing_ida.py	7;"	function
+path	listtimat.py	5;"	variable
+path	nodemat.py	6;"	variable
+path	preprocessing_ida.py	16;"	variable
+pdb	discovRe.py	10;"	namespace
+pdb	func.py	14;"	namespace
+pdb	graph_property.py	2;"	namespace
+pdb	raw_graphs.py	7;"	namespace
+pickle	discovRe.py	9;"	namespace
+pickle	draw.py	2;"	namespace
+pickle	func.py	13;"	namespace
+plt	draw.py	4;"	namespace
+processDataSegs	discovRe.py	197;"	function
+processDataSegs	func.py	240;"	function
+processExternalSegs	func.py	204;"	function
+processpltSegs	func.py	221;"	function
+raw_graph	raw_graphs.py	12;"	class
+raw_graphs	raw_graphs.py	203;"	class
+re	raw_graphs.py	9;"	namespace
+remove	cfg_constructor.py	110;"	function
+retrieveExterns	graph_analysis_ida.py	300;"	function
+retrieveGP	graph_property.py	16;"	function
+retrieveVec	raw_graphs.py	52;"	member	class:raw_graph
+s	listtimat.py	8;"	variable
+s	nodemat.py	8;"	variable
+scipy	listtimat.py	3;"	namespace
+scipy	nodemat.py	3;"	namespace
+start	graph_analysis_ida.py	103;"	variable
+sys	raw_graphs.py	2;"	namespace
+tempconnectnode	listtimat.py	24;"	variable
+tempconnectnode	nodemat.py	34;"	variable
+tempconnectnode_len	listtimat.py	25;"	variable
+tempconnectnode_len	nodemat.py	36;"	variable
+template_graph	raw_graphs.py	233;"	class
+template_graphs	raw_graphs.py	250;"	class
+transform	cfg_constructor.py	68;"	function
+tt	listtimat.py	12;"	variable
+tt	nodemat.py	12;"	variable
+updateBN	raw_graphs.py	221;"	member	class:graphlets
+updateG	raw_graphs.py	238;"	member	class:template_graph

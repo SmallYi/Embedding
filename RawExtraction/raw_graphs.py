@@ -76,10 +76,10 @@ class raw_graph:
 		insts = g.node[id_]['numTIs']
 		feature_vec.append(insts)
 		# of seq
-		seq=g.node[id_][’seqnum’]
-		feature_vec.append(seq)	
+		seqnum=g.node[id_]['seqnum']
+		feature_vec.append(seqnum)
 		return feature_vec
-        
+
 	def attribute(self, id_,g):
 		attributevec=[]
 
@@ -88,10 +88,10 @@ class raw_graph:
 		subgs = []
 		#pdb.set_trace()
 		for sub_nodes in itertools.combinations(self.g.nodes(), n):
-		    subg = self.g.subgraph(sub_nodes)
-		    u_subg = subg.to_undirected()
-		    if nx.is_connected(u_subg):
-		        subgs.append(subg)
+			subg = self.g.subgraph(sub_nodes)
+			u_subg = subg.to_undirected()
+			if nx.is_connected(u_subg):
+				subgs.append(subg)
 		return subgs
 
 

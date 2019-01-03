@@ -67,8 +67,7 @@ def get_discoverRe_feature(func, icfg):
     Instrs = getIntrs(func)
     features.append(Instrs)
     #10
-    seq=getcodesquence(func)
-    features.append(seq)
+
     between = retrieveGP(icfg)
     #9
     features.append(between)

@@ -155,6 +155,8 @@ def attributingRe(cfg, externs_eas, ea_externs):
 		cfg.node[node_id]['externs'] = externs
 		numTIs = calTransferIns(bl)
 		cfg.node[node_id]['numTIs'] = numTIs
+		seqnum=getcodesquence(bl)
+		cfg.node[node_id]['seqnum']=seqnum
 
 
 def attributing(cfg):
@@ -192,7 +194,7 @@ def getBinaryValue(node):
 		y = GetOriginalByte(addr)
 		print value, addr, y
 		value = value | y
-		value = value << 8
+		value = value << 10
 		print value
 
 	addr = inst_addr - 1
