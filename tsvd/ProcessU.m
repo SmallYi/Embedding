@@ -6,7 +6,7 @@ list1=dir(Filepath);
 filenamem={list1.name};
 sizefile=size(filenamem);
 lenn=sizefile(2);
-programnumber=2;
+programnumber=2; %number of program
 item=60; % max embedding number
 number=2500; %number of functions
 M=ones(item,number,programnumber);
@@ -23,7 +23,7 @@ for i=3:lenn
         filename(k);
         path = strjoin(strcat(FilePah,filename(k)));
         load(path); %load emdedding mat
-        D=H_AANE; %embedding mat name
+        D=C; %embedding mat name
         %disp(D);
         [m,n]=size(D)
         if m<=item
@@ -48,6 +48,8 @@ for kk=1:programnumber
     Ucompress(:,:,kk)=U(1:item,1:kcompress,kk)';
 end
 
-C=tproduct(Ucompress,X);
+CC=tproduct(Ucompress,X);
+
+save('G:/tsvd/tensor.mat', 'CC');
 
 
