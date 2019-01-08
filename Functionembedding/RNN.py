@@ -15,7 +15,7 @@ for file in files:
     if not os.path.isdir(file):
         print(file)
         #mat_contents = sio.loadmat('BlogCatalog.mat')
-        lambd = 0.05  # the regularization parameter
+        lambd = 0.0005  # the regularization parameter
         rho = 5  # the penalty parameter
 
         

@@ -7,13 +7,13 @@ def FEfun(Wei,Attri,d,*varargs):
     from math import ceil
     '''################# Parameters #################'''
     global affi, sa, H, Z
-    maxiter = 2  # Max num of iteration
+    maxiter = 20  # Max num of iteration
     [n, m] = Attri.shape  # n = Total num of nodes, m = attribute category num
     Net = sparse.lil_matrix(Wei)
     Net.setdiag(np.zeros(n))
     Net = csc_matrix(Net)
     Attri = csc_matrix(Attri)
-    lambd = 0.05  # Initial regularization parameter
+    lambd = 0.0005  # Initial regularization parameter
     rho = 5  # Initial penalty parameter
     splitnum = 1  # number of pieces we split the SA for limited cache
     if len(varargs) >= 4 and varargs[3] == 'Att':
