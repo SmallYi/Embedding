@@ -3,6 +3,7 @@ from raw_graphs import *
 from idc import *
 import os
 import argparse
+import time
 
 def parse_command():
 	parser = argparse.ArgumentParser(description='Process some integers.')
@@ -13,13 +14,16 @@ def parse_command():
 if __name__ == '__main__':
 
 	args = parse_command()
-	path = args.path
+	path =  'C:/Users/ChenKx/Desktop/ida_output/'
+	print path
 	analysis_flags = idc.GetShortPrm(idc.INF_START_AF)
 	analysis_flags &= ~idc.AF_IMMOFF
 	# turn off "automatically make offset" heuristic
 	idc.SetShortPrm(idc.INF_START_AF, analysis_flags)
 	idaapi.autoWait()
+	starttime=time.time()
 	cfgs = get_func_cfgs_c(FirstSeg())
+	endtime=time.time()
 	binary_name = idc.GetInputFile() + '.ida'
 	fullpath = os.path.join(path, binary_name)
 	pickle.dump(cfgs, open(fullpath,'w'))

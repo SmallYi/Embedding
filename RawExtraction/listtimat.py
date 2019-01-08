@@ -2,7 +2,7 @@
 import numpy
 import scipy.io
 import os
-path='opensslarmo3/edge/'
+path='edge/'
 
 files= os.listdir(path)
 s = []
@@ -42,7 +42,7 @@ for file in files:
                 i=i+1
 
         #j=j+1
-            scipy.io.savemat('opensslarmo3/network'+str(j)+'.mat', mdict={'network': network})
+            scipy.io.savemat('network/'+str(file)+'.mat', mdict={'network': network})
 
 
 

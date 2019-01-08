@@ -6,7 +6,7 @@ import datetime
 
 #file_name = 'busybox-armv6l.ida'
 #file_name = 'busybox-i686.ida'
-file_name = 'opensslarmo3.ida'
+file_name = 'G:\ida_out\busybox_O0_X86.ida'
 
 data = pickle.load(open(file_name, 'r'))
 graphs = data.raw_graph_list
