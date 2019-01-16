@@ -90,9 +90,10 @@ class LSH:
     #test: test dataset, randomly sample the slice of tensor model
     pathtensor='tensor.mat'
     s =scio.loadmat(pathtensor)
-    svec=s['CC']
-    datalen=len(svec)
-    data=np.zeros(n1,n3*datalen)
+    svec=s['FE']
+    (n1,n2,n3)=svec.shape()
+    
+    data=np.zeros(n1,n3*n2)
     for i in range(datalen):
         data[i]=svec[i]
     lsh_model=LSH(data)
