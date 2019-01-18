@@ -28,11 +28,11 @@ for file in files:
         G=GG["network"]
         #print(G)
         G_name=os.path.basename(path+file)
-        A_name='graph_'+G_name[6:]
+        A_name='node'+G_name[4:]
         AA=sio.loadmat('opensslarm/att/'+A_name)
         A=AA["network"]
         #print(A)
-        label_name='graph_'+G_name[6:]
+        label_name='edge'+G_name[4:]
      #   AA=sio.loadmat('opensslarm/att/'+A_name)
       #A#=AA["network"]
         LL=sio.loadmat('opensslarm/label/'+label_name)
@@ -63,6 +63,6 @@ for file in files:
         print(FE)
         print("time elapsed: {:.2f}s".format(time.time() - start_time))
 
-        embedding_name='emdedding'+G_name[7:]
+        embedding_name='emdedding'+G_name[4:]
         
         sio.savemat('opensslarmo3/embeddd/'+embedding_name, {"FE": FE})
