@@ -63,7 +63,7 @@ for file in files:
 
 
         #j=j+1
-          #  scipy.io.savemat('att/'+str(file)+'.mat', mdict={'network': network})
+            scipy.io.savemat('att/'+str(file)+'.mat', mdict={'network': network})
            # import mat4py
            # sssssssssssssss=mat4py.loadmat('att/'+'nodeopenssl1.txt'+'.mat')
           #  ssssss=sssssssssssssss['network']
