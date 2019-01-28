@@ -76,7 +76,7 @@ for file in namematch:
                         #issame=False
                             if testfunctionname.find(temp)!=-1:
                                     issame=True
-                               # break
+                                    break
                         if issame:
                             TPRcount=TPRcount+1
                         else:
