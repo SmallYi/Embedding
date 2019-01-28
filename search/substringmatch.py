@@ -69,10 +69,10 @@ for file in namematch:
                        # testbinaryname=(str(test[testi]).split(':')[0]).split('_')[0]
                         testfunctionname = ((str(testfunctioname[testi]).split(':')[1]))
                         #print testfunctionname
-                        lentar=len(targetfunctionname)
+                        lentar=len(targetfunctionname.split('_'))
                         issame=False
                         for i in range(lentar):
-                            temp=targetfunctionname[i:i+6]
+                            temp=targetfunctionname.split('_')[i]
                         #issame=False
                             if testfunctionname.find(temp)!=-1:
                                     issame=True
