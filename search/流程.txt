@@ -1,0 +1,52 @@
+下载这几个数据集的源码
+编译成32位操作系统下的二进制文件
+
+需要该条件下的o0,o1,o2,o3优化级别
+以及在每种架构下的arm,x86, mips
+
+在32为机器下或在64位下安装32位GCC进行编译
+
+# Environment
+(Ubuntu 5.4.0-6ubuntu1~16.04.10)
+
+## linux-x86
+gcc version 5.4.0 20160609
+
+## linux-arm
+arm-linux-gnueabi-gcc 5.4.0 20160609  //apt-get install gcc-arm-linux-gnueabi
+
+## linux-mips
+mips-linux-gnu-gcc 5.4.0 20160609   //apt-get install gcc-mips-linux-gnu
+
+Openssl version: 1.1.1
+sqlite version: 3.26.0
+busybox version: 1.29.3
+curl version: 7.63.0
+
+
+
+编译busybox过程：
+
+make clean 清除之前编译的object
+修Makefile
+ARCH ?= $(SUBARCH)改为ARCH ?= mips/arm
+CROSS_COMPILE ?= 添加交叉编译器路径
+#make menuconfig  用空格表示选择，如：mips-linux-gnu-/arm-linux-gnueabi-
+#make clean all
+#make install
+#file 可执行文件 查看是ARM结构还是X86结构，以及位
+如果是X86_64就是64位的
+
+
+先选择某个版本：
+打开IDA Pro 6.5，选中左边所有目录，然后file-
+
+运行preprocessing_ida.py的环境必须是python2
+在安装成功了pip之后，使用命令安装包的时候: pip install sklearn 报错：  no matching distribution found for sklearn。
+easy_install --upgrade pip更新pip的版本
+networkx==1.7
+运行draw.py
+在生成的文件夹下新建三个文件夹att\network\embeddd
+依次运行list-node-RNN
+
+

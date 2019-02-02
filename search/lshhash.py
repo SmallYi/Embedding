@@ -46,7 +46,7 @@ for jj in modelindex:
 # if you want to test a program
 starttest=1 #start test index
 endtest=5
-testindex=random.sample(modelindex,100) #SIZE IS THE NUMBER OF TEST FUNCTIONS
+testindex=random.sample(modelindex,1) #SIZE IS THE NUMBER OF TEST FUNCTIONS
 
 #if you want to test a single function.
 #testindex=set(np.random.randint(n3*n2,size=1))
@@ -66,14 +66,13 @@ for queryi in range(len(testindex)):
         starttime=time.time()
         Atemp=lsh_model.query(test[queryi,:],5,'cosine')
         print (str(Atemp[0]).split(')')[0]).replace('(','')
-        endtime = time.time()
         output.write((str(Atemp[0]).split(')')[0]).replace('(','')+'\n')
         output.write((str(Atemp[1]).split(')')[0]).replace('(', '') + '\n')
         output.write((str(Atemp[2]).split(')')[0]).replace('(', '') + '\n')
         output.write((str(Atemp[3]).split(')')[0]).replace('(', '') + '\n')
         output.write((str(Atemp[4]).split(')')[0]).replace('(', '') + '\n')
 
-
+        endtime=time.time()
         timee.write(str(endtime-starttime)+'\n')
        # output.write(A)
         output.write('\n')
